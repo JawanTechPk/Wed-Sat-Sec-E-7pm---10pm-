@@ -1,0 +1,270 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+#mainDiv{
+    height: 100vh;
+    width: 95%;
+    /* margin-left: 2.5%; */
+margin:0px auto;
+/* background-color: red; */
+}
+.header{
+    width: 95%;
+    position: fixed;
+    top: 0;
+    margin: auto;
+    background-color: #ffffff;
+}
+
+#navDiv{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.navChild ul{
+    width: 100%;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+
+}
+
+.navChild ul li{
+margin-left: 10px;
+color:gray;
+font-size: 14px;
+}
+
+#upSign{
+    color:#14a800;
+    font-weight: bold;
+}
+
+#sgnUpBtn{
+    height: 30px;
+    width: 80px;
+    background-color: #14a800;
+    color: white;
+    border: 0px;
+    border-radius: 20px;
+    position: relative;
+    bottom:8px
+}
+
+
+#subNav ul{
+display: flex;
+list-style-type: none;
+}
+
+#subNav ul li{
+   color:#65735B;
+   font-size: 14px;
+   margin-left: 10px;
+   margin-top: 10px;
+   /* font-weight: bold; */
+    }
+    .container{
+        margin-top: 100px;
+    }
+    .firstDiv{
+        display: flex;
+        flex-direction: column;
+        align-items:center ;
+    }
+    .firstDiv>h1{
+        text-align: center;
+        font-size: 65px;
+    }
+    .buttons>button{
+        cursor: pointer;
+        border: none;
+        outline: none;
+        background-color: #ffffff;
+        width: 120px;
+        font-size: 16px;
+        margin-top: 20px;
+    }
+    .btn1{
+        color: #14a800;
+        border-bottom: 2px solid #14a800 !important;
+    }
+    .btn2{
+        color: #65735B;
+        border-bottom: 2px solid #65735B !important;
+    }
+    .btn2:hover{
+        color:#14a800 ;
+    }
+    .inpDiv{
+        margin-top: 20px;
+        display: flex;
+        width: 65%;
+        padding: 15px;
+        border: 2px solid lightgray;
+        border-radius: 40px;
+    }
+    .inpDiv>input{
+        border: none;
+        outline: none;
+        width: 92%;
+        padding: 15px;
+    }
+    .searchIcon{
+        font-size: 30px;
+        color: #ffffff;
+    }
+    .inpDiv>div{
+        background-color: #14a800 ;
+        border-radius: 50%;
+        padding: 10px;
+    }
+    .secondDiv{
+        background-image: url("./images/img2.jpg");
+        background-size: cover;
+        background-position: center center;
+        object-fit: contain;
+        border-radius: 10px;
+        margin-top: 30px;
+        padding: 30px;
+    }
+    .secondDiv>h3{
+        color: #ffffff;
+        font-size: 22px;
+    }
+    .secondDiv>h1{
+        color: #ffffff;
+        font-size: 50px;
+        margin-top: 50px;
+
+    }
+    .secondDiv>p{
+        color: #ffffff;
+        font-size: 20px;
+        margin-top: 30px;
+    }
+    .cardsDiv{
+        display: flex;
+        justify-content: space-around;
+
+    }
+    .cardsDiv>div{
+        margin-top: 30px;
+        width: 27%;
+        padding: 20px;
+        background-color:#14a800 ;
+        color: #ffffff;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    .cardsDiv>div:hover{
+        background-color: #ffffff;
+        color: #14a800;
+        transition: all 0.5s;
+    }
+    .cardsDiv>div>h2{
+        
+        font-size: 30px;
+    }
+    .cardsDiv>div>p{
+        margin-top: 20px;
+    }
+    .thirdDiv{
+        display: flex;
+        padding: 60px;
+    }
+    .thirdDiv>div{
+        width: 50%
+    }
+    .thirdDiv>div li{
+        color: gray;
+        font-size:30px;
+        margin-top: 5px;
+        cursor: pointer;
+
+    }
+    .thirdDiv>div li:hover{
+        color: #14a800
+    }
+    #thirdDiv_img{
+        border-radius: 10px;
+    }
+    .thirdDiv>div>h1{
+        font-size: 55px;
+        color: #14a800;
+    }
+    .thirdDiv>div>ul{
+        list-style: none;
+        margin-top: 40px;
+    }
+    .buttonsDiv{
+        margin-top: 20px;
+    }
+    .buttonsDiv>button{
+        width: 180px;
+        padding: 5px;
+        border: none;
+        outline: none;
+        border-radius: 20px;
+        border: 1px solid grey;
+        background-color: #ffffff;
+        margin-top: 5px;
+        cursor: pointer;
+    }
+    .forthDiv{
+        display: flex;
+        border-radius: 10px;
+    }
+    .forthDiv>div{
+        width: 50%;
+    }
+    .infoDiv{
+        background-color: #1f57ce;
+        border-radius: 0px 10px 10px 0px;
+        color: #fff;
+        padding: 30px;
+    }
+    .infoDiv>h3{
+        font-size: 22px;
+    }
+    .infoDiv>h1{
+        font-size: 50px;
+        margin-top: 30px;
+
+    }
+    .infoDiv>p{
+        font-size: 20px;
+        margin-top: 30px;
+    }
+    .infoDiv>div{
+        margin-top: 150px;
+        display: flex;
+        border-top: 1px solid #ffffff;
+        justify-content: space-around;
+    }
+    .infoDiv>div>p{
+        width: 27%;
+        margin-top: 10px;
+    }
+    .infoDiv>button{
+        margin-top: 20px;
+        width: 160px;
+        padding: 5px;
+        border: none;
+        outline: none;
+        border-radius: 20px;
+        color: #1f57ce;
+        background-color: #ffffff;
+    }
+    .imgDiv{
+        background-image: url("./images/img4.jpg");
+        background-size: cover;
+        background-position: center center;
+        object-fit: contain;
+        border-radius: 10px 0px 0px 10px;
+    }
+

@@ -1,0 +1,48 @@
+/* body{
+    background-color: yellow;
+}
+
+@media only screen and (max-width: 550px){
+    body{
+        background-color: red;
+    }
+    img{
+        width: 300px;
+        height: 300px;
+    }
+}
+
+@media only screen and (max-width: 400px){
+    body{
+        background-color: orange;
+    }
+    img{
+        width: 200px;
+        height: 200px;
+    }
+} */
+.main{
+    display: flex;
+    /* flex-direction: column-reverse; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    justify-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap-reverse;
+    
+
+}
+.main > div {
+    background-color: yellow;
+    width: 250px;
+    margin-top: 10px;
+}
+/* .div1{
+    flex: 1
+}
+.div2{
+    flex: 6
+}
+.div3{
+    flex: 1
+} */

@@ -1,0 +1,56 @@
+/* body{
+    width:50%;
+} */
+
+#d1{
+    width:300px;
+    height: 300px;
+    background-color: red;
+}
+@font-face {
+    font-family: "Josefin";
+    src: url("./fonts/JosefinSans-VariableFont_wght.ttf");
+}
+
+#p1{
+    /* font-size: 30px; */
+    font-family: Josefin;
+    /* font-weight: bold; */
+    /* font-style: oblique; */
+    /* text-transform: capitalize; */
+    /* text-decoration: underline; */
+    /* line-height: 30px; */
+    /* word-spacing: 10px; */
+    /* text-align: justify; */
+    /* text-indent: 50px;
+    font-size: 32px;
+    text-shadow: -3px -5px 1px red; */
+}
+#p1:first-line{
+    font-size: 50px;
+    text-shadow: 3px 6px 1px red;
+}
+#anchor:link{
+    color: orange;
+}
+#anchor:visited{
+    color: green
+}
+#d1:hover{
+    background-color: yellow;
+    width: 400px;
+    height: 400px;
+}
+#btn:active{
+    color: purple;
+    background-color: aqua;
+}
+#inp{
+    background-color: black;
+}
+#inp:focus{
+    background-color: brown;
+}
+#inp::placeholder{
+    color: chartreuse;
+}

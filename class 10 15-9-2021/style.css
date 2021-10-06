@@ -1,0 +1,38 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+ #main{
+    background-color: yellow;
+    width: 500px;
+    padding: 40px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 40px;
+    /* box-shadow: 10px 10px 3px 10px red; */
+    /* overflow: scroll;
+    min-width: 300px;
+    max-width: 700px;
+    border-width: 2px 4px 2px 4px;
+    border-style: solid;
+    border-color: violet blue;*/
+    border: 5px solid red; 
+}
+
+/* #div{
+    width: 100%;
+    height: 50px;
+    background-color: sandybrown;
+}
+#div li{
+    display: inline-block;
+    margin-left: 20px;
+}
+#div ul{
+    /* margin-left: 100px; */
+    /* display: inline-block;
+    text-align: right;
+    margin-top: 20px;
+} */
