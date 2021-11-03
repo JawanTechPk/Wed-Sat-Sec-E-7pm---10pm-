@@ -1,0 +1,96 @@
+.mainDiv{
+    background-color: red;
+    height: 100vh;
+    /* display: flex; */
+}
+
+
+.div1{
+    background-color: green;
+    height: 100vh;
+    
+}
+
+.div2{
+    background-color: orange;
+    height: 100vh;
+  
+}
+.div3{
+    background-color: yellow;
+    height: 100vh;
+  
+}
+
+/* @media (max-width:3000px){
+    .mainDiv{
+        background-color: aqua;
+        height: 100vh;
+    }
+}
+
+
+@media (max-width:1200px){
+    .mainDiv{
+        background-color: pink;
+        height: 100vh;
+    }
+}
+@media (max-width:900px){
+    .mainDiv{
+        background-color: yellow;
+        height: 100vh;
+    }
+}
+
+@media (max-width:700px){
+    .mainDiv{
+        background-color: orange;
+        height: 100vh;
+    }
+}
+
+@media (max-width:576px){
+    .mainDiv{
+        background-color: red;
+        height: 100vh;
+    }
+} */
+/* 
+@media (max-width:575px){
+    .mainDiv{
+        background-color: aqua;
+        height: 100vh;
+    }
+}
+
+@media (min-width:576px){
+    .mainDiv{
+        background-color: red;
+        height: 100vh;
+    }
+}
+
+
+@media (min-width:700px){
+    .mainDiv{
+        background-color: orange;
+        height: 100vh;
+    }
+}
+
+
+@media (min-width:900px){
+    .mainDiv{
+        background-color: yellow;
+        height: 100vh;
+    }
+}
+
+
+@media (min-width:1200px){
+    .mainDiv{
+        background-color: pink;
+        height: 100vh;
+    }
+} */

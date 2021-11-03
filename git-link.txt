@@ -1,0 +1,10 @@
+Git Link : https://github.com/JawanTechPk/Wed-Sat-Sec-F-7pm---10pm-
+
+Install : 
+1) Node js 
+2) Git ( link : https://git-scm.com/downloads )
+
+Commands : 
+
+1) git clone https://github.com/JawanTechPk/Wed-Sat-Sec-F-7pm---10pm-.git
+2) git pull origin main

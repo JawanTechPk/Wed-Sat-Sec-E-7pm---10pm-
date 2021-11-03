@@ -1,0 +1,425 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #ffffff;
+}
+.main{
+    width: 80%;
+    margin: auto;
+}
+.headerContainer{
+    width: 80%;
+    background-color: #ffffff;
+    position: fixed;
+    top: 0;
+}
+.header{
+    display: flex;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    border-bottom: 2px solid lightgray;
+}
+.sub{
+    display: flex;
+    align-items: center;
+    width: 86%;
+    justify-content: space-between;
+}
+.links > ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.links li{
+    list-style: none;
+    font-size: 18px;
+    justify-content: space-between;
+    cursor: pointer;
+    
+}
+.links li > a{
+    text-decoration: none;
+    color: #65735b;
+}
+.links li > a:hover{
+    color: #6fdb42
+}
+.li{
+    margin-left: 20px;
+}
+.loginBtn{
+    text-decoration: none;
+    color: #65735b;
+    font-size: 18px;
+}
+.loginBtn:hover{
+    color: #6fdb42
+}
+.signupBtn{
+    font-size: 16px;
+    padding: 10px;
+    width: 120px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    background-color: #14a800;
+    color: #fff;
+    cursor: pointer;
+}
+.signupBtn:hover{
+    background-color: #3c8224;
+}
+.btnDiv{
+    justify-self: flex-end;
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.firstDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.firstDiv > h1{
+    font-size: 75px;
+    text-align: center;
+}
+.firstDiv > .inpDiv{
+    display: flex;
+    margin-top: 30px;
+    width: 60%;
+    padding: 7px;
+    border: 2px solid lightgray;
+    border-radius: 50px;
+}
+.firstDiv > .inpDiv > input{
+    font-size: 18px;
+    padding: 15px;
+    width: 92%;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+
+}
+.firstDiv > .options{
+    margin-top: 30px;
+    text-align: center;
+    width: 70%;
+}
+.option{
+    cursor: pointer;
+    margin-top: 5px;
+    padding: 7px 15px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+}
+.option:hover{
+    background-color: #e4ebe4;
+}
+.firstDiv > .inpDiv > div{
+    /* padding: 20px; */
+    width: 60px;
+    background-color: #14a800;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+} 
+.firstDiv > .buttons{
+    margin-top: 35px;
+}
+.firstDiv > .buttons > button{
+    background-color: #ffffff;
+    border: none;
+    outline: none;
+    width: 150px;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    
+}
+.searchIcon{
+    font-size: 30px;
+    color: #ffffff;
+}
+.btn1{
+    color: #14a800;
+    border-bottom: 3px solid #14a800 !important;
+}
+.btn2{
+    color: #65735b;
+    border-bottom: 3px solid lightgray !important;
+}
+.btn2:hover{
+    color: #14a800;
+}
+.container{
+    margin-top: 150px;
+}
+
+.secondDiv{
+    background-image: url("./images//img2.jpg");
+    background-size: cover;
+    background-position: center center;
+    object-fit: contain;
+    border-radius: 10px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.secondDiv > .div2{
+    margin-top: 70px;
+}
+.secondDiv > div > h3{
+    font-size: 26px;
+    color: #fff;
+}
+.secondDiv > div > h1{
+    font-size: 65px;
+    color: #fff;
+}
+.secondDiv > div > p{
+    font-size: 22px;
+    color: #fff;
+    margin-top: 30px;
+}
+.cardsDiv{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+.cardDiv{
+    width: 320px;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #6fdb42 ;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.cardDiv:hover{
+    background-color: #fff;
+    color: #6fdb42
+}
+.cardDiv > div{
+    display: flex;
+    /* height: 140px; */
+    flex-direction: column;
+    justify-content: space-between;
+    /* color: #fff; */
+}
+.cardDiv > div > h2{
+    font-size: 34px;
+}
+.cardDiv > div > p{
+    font-size: 20px;
+    margin-top: 40px;
+}
+.thirdDiv{
+    display: flex;
+    margin-top: 70px;
+    border-radius: 10px;
+}
+.imgDiv{
+    width: 50%;
+    background-image: url("./images/img4.jpg");
+    background-size: cover;
+    background-position: center center;
+    object-fit: contain;
+    border-radius: 10px 0px 0px 10px;
+    
+}
+.info{
+    width: 50%;
+    background-color: #1f57c3;
+    border-radius: 0px 10px 10px 0px;
+    padding: 30px ;
+}
+.info > h3{
+        font-size: 26px;
+        color: #fff;
+}
+.info > h1{
+    font-size: 65px;
+    color: #fff;
+    margin-top: 30px;
+}
+.info > p{
+    font-size: 22px;
+    color: #fff;
+    margin-top: 30px;
+}
+.info > div{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border-top: 2px solid #ffffff;
+    margin-top: 160px;
+}
+.info > div > p{
+    margin-top: 10px;
+    width: 160px;
+    font-size: 20px;
+    color: #fff;
+}
+.info > button{
+    width: 180px;
+    font-size: 16px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    background-color: #ffffff;
+    color: #1f57c3 ;
+    cursor: pointer;
+    margin-top: 40px;
+}
+.forthDiv{
+    display: flex;
+    margin-top: 70px;
+    padding: 30px;
+}
+.profileDiv1{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.profileDiv1 > h1{
+    font-size: 65px;
+}
+.profileDiv1 > div{
+    width: 350px;
+    margin-top: 80px;
+    align-self: flex-end;
+}
+.profileDiv1 > div >img{
+    border-radius: 10px;
+}
+.profileDiv2{
+    width: 50%;
+    
+}
+.profileDiv2 > div{
+    width: 350px;
+    margin: auto;
+}
+.profileDiv2 > div >img{
+    border-radius: 10px;
+}
+.profileDiv1 > div >h2, .profileDiv2 > div >h2{
+    color: #14a800;
+    margin-top: 30px;
+}
+hr{
+    margin-top: 30px;
+}
+.profileDiv1 > div >h4, .profileDiv2 > div >h4{
+    font-size: 20px;
+    margin-top: 10px;
+}
+.profileDiv1 > div >p, .profileDiv2 > div >p{
+    margin-top: 10px;
+    color: #65735b;
+    font-size: 18px;
+}
+.fifthDiv{
+    display: flex;
+    margin-top: 50px;
+}
+.profileDiv2_div1{
+    width: 50%;
+    background-color: #14a800;
+    border-radius: 10px 0px 0px 10px;
+    padding: 30px;
+    
+}
+.profileDiv2_div1>h1{
+    font-size: 65px;
+    color: #ffffff;
+}
+.profileDiv2_div1>div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 230px;
+}
+.profileDiv2_div1>div>div{
+    width: 220px;
+    border-top: 1px solid #ffffff;
+    padding-top: 15px;
+}
+.profileDiv2_div1>div>div>p{
+    font-size: 20px;
+    color: #ffffff;
+}
+.profileDiv2_div1>div>div>h4{
+    font-size: 24px;
+    color: #ffffff;
+    margin-top: 10px;
+}
+.profileDiv2_div2{
+    width: 50%;
+    background-image: url("./images/img7.jpg");
+    background-size: cover;
+    background-position: center center;
+    object-fit: contain;
+    border-radius: 0px 10px 10px 0px;
+}
+.sixthDiv{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.ul1{
+    list-style: none;
+    color: lightgray;
+    font-size: 40px;
+    font-weight: bold;
+}
+.ul1>li{
+    cursor: pointer;
+}
+.ul1>li:hover{
+    color: #14a800
+}
+.ul2, .ul3{
+    list-style: none;
+    color: #65735b;
+    font-size: 25px;
+    cursor: pointer;
+}
+.ul2>li:hover, .ul3>li:hover{
+    color: #3c8224;
+}
+.ul3{
+    list-style: none;
+}
+.footer{
+    background-color: black;
+    margin-top: 70px;
+    display: flex;
+    padding: 50px;
+    justify-content: space-around;
+    color: #ffffff;
+}
+.footer >div >ul{
+    margin-top: 30px;
+    list-style: none;
+}
+.footer >div >ul >li{
+    margin-top: 10px;
+    cursor: pointer;
+
+}
+.footer >div >ul >li:hover{
+    text-decoration: underline;
+}
